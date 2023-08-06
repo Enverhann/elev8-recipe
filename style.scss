@@ -113,7 +113,17 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
 
+.about-section h2 {
+  margin-bottom: 10px;
+}
 
 /* Responsive styles */
 @media screen and (max-width: 1024px) {
