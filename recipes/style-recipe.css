@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Recipe sections */
+.ingredients,
+.instructions {
+  margin-bottom: 30px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "•";
+  margin-right: 8px;
+}
+
+ol li {
+  counter-increment: step-counter;
+}
+
+ol li::before {
+  content: counter(step-counter) ".";
+  margin-right: 8px;
+}
+
+/* Styling for toppings and optional ingredients */
+ul li:not(:last-child),
+ol li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Styling for toppings section */
+ul li::before {
+  font-weight: bold;
+  color: #FF9800;
+}
+
+/* Styling for optional ingredients section */
+ol li::before {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Recipe footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #888;
+}
+
+/* Links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}
