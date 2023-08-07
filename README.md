@@ -2,7 +2,7 @@
 
 This project made for elev8 advanced web fundamentals training. This is a simple web application that serves as an online recipe book. 
 
-#Project Files Content
+# Project Files Content
 
 1)index.html: The home page of the online recipe book. Displays a grid of recipe cards showcasing different recipes. Includes a navigation menu and a footer with contact information and copyright details.
 
